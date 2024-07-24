@@ -1,0 +1,142 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+$color-text: #111111;
+$color-background-main: #292929;
+$color-red: red;
+
+:root {
+  /* startje */
+  --color-text: #111111;
+  --color-background-main: #292929;
+  --color-red: red;
+}
+
+
+/****************************/
+/* ALGEMENE STYLING */
+/****************************/
+
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: $color-background-main;
+  /* background: linear-gradient(0deg, #292929 0%,#575757 50%, #292929 80%); */
+  margin: 0em;
+  width: 100vw;
+}
+
+main {
+  display: grid;
+  margin: 1em;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+a {
+  color: white;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: "Days One";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h3,
+p,
+.link_eindproduct,
+.link_terug {
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+
+img {
+  max-width: 90vw;
+}
+
+section {
+  width: 90vw;
+  margin-top: 5vw;
+}
+
+@media screen and (min-width: 700px) {
+
+  main {
+    grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+  }
+
+  .logo img {
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 1000px) {
+  main {
+    grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+    margin: 2em;
+  }
+
+  footer {
+    margin: 5em 1em 5em 1em;
+
+  }
+
+}
+
+@media screen and (min-width: 1400px) {
+  main {
+    grid-template-columns: repeat(auto-fit, minmax(40em, 1fr));
+    margin: 2em;
+  }
+
+  .landing img {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  main {
+    grid-template-columns: repeat(auto-fit, minmax(50em, 1fr));
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  main {
+    grid-template-columns: repeat(auto-fit, minmax(60em, 1fr));
+  }
+}
+
+@media screen and (min-width: 2900px) {
+  main {
+    grid-template-columns: repeat(auto-fit, minmax(70em, 1fr));
+  }
+}
