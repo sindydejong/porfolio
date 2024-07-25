@@ -20,7 +20,7 @@
   import { defineProps } from 'vue';
   import type { Project } from '@/data/projects'; // Importeer Project interface
 
-  const props = defineProps<{
+  defineProps<{
     project: Project;
   }>();
 

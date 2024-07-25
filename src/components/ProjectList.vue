@@ -1,4 +1,4 @@
-
+<!-- 
 <template>
     <div>
       <ProjectCard v-for="project in projects" :key="project.name" :project="project" />
@@ -6,16 +6,16 @@
   </template>
   
   <script setup lang="ts">
-  import ProjectCard from './ProjectCard.vue';
-  import { projects, Project } from '/src/data/projects.ts';
+  import ProjectCard from './ProjectCardItem.vue';
+  import { projects, Project } from '../data/projects';
   
   
   // Props
-  const props = defineProps({
+  defineProps({
     projects: {
       type: Array as () => Project[],
       required: true
     }
   });
   </script>
-  
+   -->
