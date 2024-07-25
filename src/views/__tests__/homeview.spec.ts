@@ -9,3 +9,5 @@ describe('HelloWorld', () => {
     expect(wrapper.text()).toContain('Recentste project')
   })
 })
+
+//test met; npm run test:unit

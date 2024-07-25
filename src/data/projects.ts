@@ -56,7 +56,7 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
   },
   {
     name: 'magic_8ball',
-    image: '/src/assets/images/8ball.webp',
+    image: './src/assets/images/8ball.webp',
     video: 'https://www.youtube-nocookie.com/embed/p1J3UeUW74w?si=Rty6eYxkpXvkMucj',
     title: 'Magic 8-Ball: interactieve applicatie',
     subtitle: 'JAVASCRIPT',
