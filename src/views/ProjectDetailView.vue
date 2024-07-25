@@ -32,6 +32,7 @@ console.log('Props:', props);
 console.log('Gevonden project:', project);
 
 const sanitizedOpdracht = computed(() => DOMPurify.sanitize(project.opdracht));
+const sanitizedEindproduct = computed(() => DOMPurify.sanitize(project.eindproduct));
 
 </script>
 
@@ -88,7 +89,7 @@ const sanitizedOpdracht = computed(() => DOMPurify.sanitize(project.opdracht));
 <section>
 <h2> eindproduct </h2>
 
-<p> <div v-html="project.eindproduct"> </div> </p> 
+<p> <div v-html="sanitizedEindproduct"> </div> </p> 
 
 
 <div class="video-container" v-if="project.video">
