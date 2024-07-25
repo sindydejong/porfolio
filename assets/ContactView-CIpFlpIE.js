@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,d as n}from"./index-e79VB42y.js";const c={},s=n("p",null," Bij vragen of interesse, neem vooral contact met mij op! ",-1),a=[s];function r(_,i){return o(),t("main",null,a)}const m=e(c,[["render",r]]);export{m as default};
