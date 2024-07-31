@@ -18,7 +18,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     name: 'red_hot_chili_peppers',
-    image: '/src/assets/images/rhcp.webp',
+    image: './assets/images/rhcp.webp',
     video: '',
     title: 'Red Hot Chili Peppers: Screenreader friendly',
     subtitle: 'FRONT-END',
@@ -56,7 +56,7 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
   },
   {
     name: 'magic_8ball',
-    image: './src/assets/images/8ball.webp',
+    image: './assets/images/8ball.webp',
     video: 'https://www.youtube-nocookie.com/embed/p1J3UeUW74w?si=Rty6eYxkpXvkMucj',
     title: 'Magic 8-Ball: interactieve applicatie',
     subtitle: 'JAVASCRIPT',
@@ -73,7 +73,7 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
   },
   {
     name: 'jamties',
-    image: '/src/assets/images/jamties.webp',
+    image: './assets/images/jamties.webp',
     video: 'https://www.youtube-nocookie.com/embed/hzGr8m0BfvA?si=ZYdhdQEDsgymztoW"',
     video2: 'https://www.youtube-nocookie.com/embed/A61T92TfQ68?si=-vf6280KcGcaf2O8',
     title: 'JamTies: Muziekaal interactief spel',

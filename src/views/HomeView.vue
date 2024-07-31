@@ -19,15 +19,15 @@
 
 		<section class="logo">
 
-			<img src="/src/assets/images/cd-case.png" alt="">
-			<img class="cd" src="/src/assets/images/favicon_logo.png" alt="">
+			<img src="/assets/images/cd-case.png" alt="">
+			<img class="cd" src="/assets/images/favicon_logo.png" alt="">
 		</section>
 
     <section class="current">
 
 <h3> Recentste project </h3>
 
-<img src="/src/assets/images/rhcp.webp">
+<img src="/assets/images/rhcp.webp">
 
 <ul>
   <li>

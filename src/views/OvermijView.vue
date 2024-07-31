@@ -17,7 +17,7 @@
     </p>
 
 
-    <img src="/src/assets/images/propedeuse.webp">
+    <img src="/assets/images/propedeuse.webp">
 
     <p>  In 2022 heb ik mijn CMD Propedeuse Cum-Laude behaald! </p>
 

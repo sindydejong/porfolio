@@ -4,7 +4,7 @@
 
 <h1> Mijn CV </h1>
 
-<iframe src="/src/assets/images/CV_Sindy2_compressed.pdf" width="100%" height="500em"> </iframe>
+<iframe src="/portfolio/assets/images/CV_Sindy2_compressed.pdf" width="100%" height="500em"> </iframe>
 
 </main>
 

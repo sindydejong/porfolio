@@ -1,6 +1,6 @@
 <script setup lang="ts">
   
-  import { ref, computed } from 'vue';
+  import { computed } from 'vue';
   import DOMPurify from 'dompurify';
   
   import { projects } from '@/data/projects'; // Importeer de projects array

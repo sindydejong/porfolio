@@ -16,7 +16,7 @@
     
     <h3> Recentste project </h3>
     
-    <img src="/src/assets/images/rhcp.webp">
+    <img src="/assets/images/rhcp.webp">
     
     <ul>
       <li>
